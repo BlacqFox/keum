@@ -1,0 +1,523 @@
+* {
+       margin: 0px;
+       padding: 0px;
+       font-family: KoPubWorld돋움체
+   }
+   
+   
+   .clearpix::before, .clearpix::after {
+       display: block;
+       content: "";
+       clear: both
+   }
+   
+   .infotext {
+       font-size: 13px;
+       color: #777
+   }
+   
+   input {
+       padding-left: 20px;
+       padding-right: 3px;
+   }
+   
+   select {
+       padding-left: 20px;
+   }
+   
+   li {
+       font-size: 14px;
+   }
+   
+   ::placeholder {
+       color: #ddd
+   }
+   
+   input:focus {
+       outline: 1px solid rgb(200, 177, 236);
+   }
+   
+   button {
+       cursor: pointer   
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   #wrap {
+       position: relative;
+       width: 100vw;
+       height: 56.25vw;
+       max-height: 100vh;
+       max-width: 177.78vh;
+       padding-top: 60px;
+   }
+   
+   
+   .back {
+       width: 300px;
+       height: 58px;
+       background-color: #fff;
+       border: solid 1px #ddd
+   }
+   
+   
+   .next {
+       width: 300px;
+       height: 58px;
+       background-color: #001734;
+       border: none;
+       color: #fff
+   }
+   
+   
+   header {
+       width: 100vw;
+       height: 150px;
+       border-top: solid 1px #ddd;
+       border-bottom: solid 1px #ddd;
+       text-align: center;
+   }
+   
+   
+   header > h1 {
+       margin-top: 30px;
+       margin-bottom: 20px;
+   }
+   
+   section {
+       width: 100vw;
+       height: 580px;
+       margin-top: 60px;
+   }
+   
+   #firstBlock {
+       width: 700px;
+   
+       margin: 0px 600px 0px 620px;
+   }
+   
+   .fb_line {
+       height: 230px;
+       width: 1px;
+       border-right: solid 1px #ddd;
+       float: left;
+       margin: 0px 0px 20px 15px;
+   }
+   
+   .fb_top {
+       width: 695px;
+       height: 50px;
+       clear: both;
+   }
+   
+   
+   .fb_text {
+       width: 600px;
+       height: 100px;
+       float: left;
+       margin-left: 40px;
+   }
+   
+   #button {
+       height: 60px;
+       float: right;
+       margin: 20px 40px 0px 0px;
+   }
+   
+   
+   #secondBlock {
+       width: 700px;
+       margin: 0px 600px 40px 620px;
+       clear: both;
+   
+   }
+   
+   .radius_1 {
+       border-radius: 50px;
+       width: 30px;
+       height: 28px;
+       background-color: #001734;
+       color: #fff;
+       text-align: center;
+       vertical-align: middle;
+       float: left;
+       margin-right: 10px;
+       font-weight: lighter;
+       padding-top: 2px;
+   }
+   
+   
+   .radius_2 {
+       border-radius: 50px;
+       width: 30px;
+       height: 28px;
+       background-color: #001734;
+       color: #fff;
+       text-align: center;
+       vertical-align: middle;
+       float: left;
+       margin-right: 10px;
+       font-weight: lighter;
+       padding-top: 2px;
+   }
+   
+   
+   .radius_3 {
+       border-radius: 50px;
+       width: 30px;
+       height: 28px;
+       background-color: #001734;
+       color: #fff;
+       text-align: center;
+       vertical-align: middle;
+       float: left;
+       margin-right: 10px;
+       font-weight: lighter;
+       padding-top: 2px;
+   }
+   
+   
+   .check_1 {
+       float: left;
+       margin-right: 10px;
+       color: #001734;
+       display: none;
+   }
+   
+   .check_2 {
+       float: left;
+       margin-right: 10px;
+       color: #001734;
+       display: none;
+   }
+   
+   .check_3 {
+       float: left;
+       margin-right: 10px;
+       color: #001734;
+       display: none;
+   }
+   
+   
+   /* todo */
+   #sc_slide {
+       display: none;
+   }
+   
+   .sc_text {
+       width: 600px;
+       height: 30px;
+       float: left;
+       margin-left: 40px;
+       margin-top: 5px;
+   
+   }
+   
+   #name {
+       width: 580px;
+       height: 40px;
+       border: solid 1px #ddd;
+       margin: 0px 0px 5px 39px;
+       float: left;
+   }
+   
+   
+   #birth {
+       width: 278px;
+       height: 40px;
+       border: solid 1px #ddd;
+       border-right: none;
+       margin: 0px 0px 5px 39px;
+       float: left;
+       outline: none;
+   }
+   
+   
+   #birth_2 {
+       width: 10px;
+       height: 31px;
+       border: solid 1px #ddd;
+       border-left: none;
+       border-right: none;
+       margin: 0px 0px 5px 0px;
+       padding-top: 9px;
+       float: left;
+   }
+   
+   
+   #birth_3 {
+       width: 292px;
+       height: 40px;
+       border: solid 1px #ddd;
+       border-left: none;
+       margin: 0px 0px 5px 0px;
+       float: left;
+   }
+   
+   
+   #birth_3_in {
+       width: 300px;
+       height: 28px;
+       border: none;
+       margin: 0px 0px 5px 0px;
+       float: left;
+       font-size: 12px;
+       padding: 12px 0px 9px 190px
+   
+   }
+   
+   
+   #birth_3_in2 {
+       border: none;
+       width: 12px;
+       text-align: right;
+       padding: 0px;
+       font-size: 12px;
+       outline: none;
+   }
+   
+   
+   #telecom {
+       width: 150px;
+       height: 43px;
+       border: solid 1px #ddd;
+       margin-left: 39px;
+       float: left;
+   }
+   
+   #phoneNumber {
+       width: 425px;
+       height: 40px;
+       border: solid 1px #ddd;
+       margin-left: 5px;
+       float: left;
+   }
+   
+   #infomation {
+       width: 245px;
+       height: 15px;
+       margin: 5px 0px 20px 0px;
+       float: right;
+       font-size: 12px
+   }
+   
+   .sc_line {
+       height: 20px;
+       width: 1px;
+       border-right: solid 1px #ddd;
+       float: left;
+       margin: 0px 0px 20px 15px;
+   }
+   
+   
+   #thirdBlock {
+       width: 700px;
+       margin: 40px 600px 0px 620px;
+       clear: both;
+   }
+   
+   /* todo */
+   #th_slide {
+       display: none;
+       float: left;
+   }
+   
+   .th_line {
+       height: 10px;
+       width: 1px;
+       border-right: solid 0px #ddd;
+       float: left;
+       margin: 10px 0px 20px -26px;
+   }
+   
+   footer {
+       width: 100vw;
+       height: 100px;
+       border-top: solid 1px #ddd;
+       margin-top: 40px;
+   }
+   
+   /* 페이지 2 */
+   #emailBlock {
+       width: 610px;
+       margin-top: 5px;
+   }
+   
+   #email {
+       width: 410px;
+       height: 40px;
+       border: solid 1px #ddd;
+       float: left;
+   }
+   
+   #Confirm {
+       width: 148px;
+       height: 42px;
+       border: none;
+       float: left;
+       background-color: #777;
+       color: #fff
+   
+   }
+   
+   .fb2_line {
+       height: 130px;
+       width: 1px;
+       border-right: solid 1px #ddd;
+       float: left;
+       margin: 0px 0px 20px 15px;
+   }
+   
+   #readOnlyEmail {
+       width: 430px;
+       height: 40px;
+       border: solid 1px #ddd;
+       float: left
+   
+   }
+   
+   #Confirm2 {
+       width: 148px;
+       height: 42px;
+       border: none;
+       float: left;
+       background-color: #777;
+       color: #fff
+   }
+   
+   #infomation2 {
+       width: 430px;
+       height: 15px;
+       margin: 5px 23px 5px 0px;
+       float: right;
+       font-size: 12px
+   }
+   
+   .joinMembership {
+       width: 300px;
+       height: 50px;
+       background-color: #001734;
+       border: none;
+       color: #fff;
+       margin: 8px 0px 0px 210px;
+   }
+   
+   .nameBlock {
+       background-color: #ddd;
+       color: #000
+   }
+   
+   /* 팝업 */
+   #mask {
+       position: absolute;
+       z-index: 9000;
+       background-color: #000;
+       display: none;
+       left: 0;
+       top: 0;
+       opacity: 0.6;
+       text-align: center;
+   }
+   
+   .window_1 {
+       display: none;
+       position: absolute;
+       left: 800px;
+       top: 400px;
+       z-index: 10000;
+   }
+   
+   .window_2 {
+       display: none;
+       position: absolute;
+       left: 800px;
+       top: 400px;
+       z-index: 10000;
+   }
+   
+   .window_3 {
+       display: none;
+       position: absolute;
+       left: 800px;
+       top: 400px;
+       z-index: 10000;
+   }
+   
+   .block {
+       padding-top: 45px;
+       width: 300px;
+       height: 65px;
+       background-color: #fff;
+       color: #000;
+       border-radius: 10px 10px 0px 0px;
+       text-align: center;
+       font-size: 17px;
+       font-weight: lighter;
+   }
+   
+   .close {
+       width: 300px;
+       height: 55px;
+       background-color: #001734;
+       color: #fff;
+       border-radius: 0px 0px 10px 10px;
+       border: none;
+       font-size: 18px;
+   }
+   
+   #mask_2 {
+       position: absolute;
+       z-index: 9000;
+       background-color: #000;
+       display: none;
+       left: 0;
+       top: 0;
+       text-align: center;
+   }
+   
+   #mask_3 {
+       position: absolute;
+       z-index: 9000;
+       background-color: #000;
+       display: none;
+       left: 0;
+       top: 0;
+       text-align: center;
+   }
+
+   #infomation_3 {
+       width: 245px;
+       height: 15px;
+       margin: 5px 0px 20px 0px;
+       float: left;
+       font-size: 12px
+   }
+   #password {
+    width: 580px;
+    height: 40px;
+    border: solid 1px #ddd;
+    margin: 0px 0px 5px 39px;
+    float: left;
+   }
+   #confirmPassword {
+    width: 580px;
+    height: 40px;
+    border: solid 1px #ddd;
+    margin: 0px 0px 5px 39px;
+    float: left;
+   }   
