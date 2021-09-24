@@ -12,8 +12,10 @@
    }
    
    .infotext {
+       width: 350px;
        font-size: 13px;
-       color: #777
+       color: #777;
+       margin: 0px auto;
    }
    
    input {
@@ -34,7 +36,7 @@
    }
    
    input:focus {
-       outline: 1px solid rgb(200, 177, 236);
+       outline: 1px solid rgb(191, 156, 247);
    }
    
    button {
@@ -103,12 +105,12 @@
        width: 100vw;
        height: 580px;
        margin-top: 60px;
+    
    }
    
    #firstBlock {
        width: 700px;
-   
-       margin: 0px 600px 0px 620px;
+       margin: 0px auto;
    }
    
    .fb_line {
@@ -142,9 +144,8 @@
    
    #secondBlock {
        width: 700px;
-       margin: 0px 600px 40px 620px;
        clear: both;
-   
+       margin: 0px auto;
    }
    
    .radius_1 {
@@ -327,8 +328,8 @@
    
    #thirdBlock {
        width: 700px;
-       margin: 40px 600px 0px 620px;
        clear: both;
+       margin: 0px auto;
    }
    
    /* todo */
@@ -437,24 +438,24 @@
    .window_1 {
        display: none;
        position: absolute;
-       left: 800px;
-       top: 400px;
+       left: 50%;
+       top: 50%;
        z-index: 10000;
    }
    
    .window_2 {
        display: none;
        position: absolute;
-       left: 800px;
-       top: 400px;
+       left: 50%;
+       top: 50%;
        z-index: 10000;
    }
    
    .window_3 {
        display: none;
        position: absolute;
-       left: 800px;
-       top: 400px;
+       left: 50%;
+       top: 50%;
        z-index: 10000;
    }
    
@@ -507,6 +508,7 @@
        float: left;
        font-size: 12px
    }
+
    #password {
     width: 580px;
     height: 40px;
@@ -514,6 +516,7 @@
     margin: 0px 0px 5px 39px;
     float: left;
    }
+   
    #confirmPassword {
     width: 580px;
     height: 40px;
